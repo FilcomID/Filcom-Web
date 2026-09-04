@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jasa Virtualisasi Server &amp; IT Monitoring | Filcom.id</title>
+<meta name="description" content="Virtualisasi dengan Proxmox, VMware, dan Hyper-V plus monitoring performa server dan jaringan 24/7. Hemat biaya infrastruktur.">
+<link rel="canonical" href="https://filcom.id/layanan/virtualisasi-server-dan-monitoring/">
+<link rel="icon" type="image/svg+xml" href="../../assets/images/fav-icon/filcom.svg">
+<meta property="og:title" content="Jasa Virtualisasi Server (VMware, Proxmox, Hyper-V) &amp; IT Monitoring">
+<meta property="og:description" content="Virtualisasi dengan Proxmox, VMware, dan Hyper-V plus monitoring performa server dan jaringan 24/7. Hemat biaya infrastruktur.">
+<meta property="og:image" content="https://filcom.id/assets/images/og-filcom.jpg">
+<meta property="og:url" content="https://filcom.id/layanan/virtualisasi-server-dan-monitoring/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/css/bootstrap.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/owl.carousel.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/animate.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/animated-text.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/all.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/theme-default.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/meanmenu.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/owl.transitions.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../venobox/venobox.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/bootstrap-icons.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/responsive.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/coustom-animation.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/filcom.css?v=14" type="text/css" media="all">
+<script src="../../assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<!-- TODO GA4: replace with real gtag.js snippet for G-XXXXXXX -->
+<script type="application/ld+json">
+{ "@context":"https://schema.org","@type":"ProfessionalService","name":"Filcom.id","url":"https://filcom.id/",
+  "description":"Penyedia solusi IT untuk UMKM, kantor, sekolah, dan organisasi di Indonesia: jaringan, server, private cloud, IT support, website, SEO, dan otomasi AI.",
+  "areaServed":[{"@type":"AdministrativeArea","name":"Jabodetabek"},{"@type":"Country","name":"Indonesia"}],
+  "telephone":"+62-822-9036-2121","email":"info@filcom.id",
+  "address":{"@type":"PostalAddress","addressLocality":"Jakarta","addressCountry":"ID"} }
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Beranda","item":"https://filcom.id/"},
+  {"@type":"ListItem","position":2,"name":"Layanan","item":"https://filcom.id/layanan/"},
+  {"@type":"ListItem","position":3,"name":"Jasa Virtualisasi Server (VMware, Proxmox, Hyper-V) & IT Monitoring","item":"https://filcom.id/layanan/virtualisasi-server-dan-monitoring/"}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Service",
+ "serviceType":"Jasa Virtualisasi Server (VMware, Proxmox, Hyper-V) & IT Monitoring",
+ "provider":{"@type":"ProfessionalService","name":"Filcom.id","url":"https://filcom.id/"},
+ "areaServed":{"@type":"Country","name":"Indonesia"},
+ "description":"Mengoptimalkan pemanfaatan infrastruktur IT sekaligus memberikan visibilitas terhadap kondisi sistem, untuk menjaga ketersediaan dan performa layanan.",
+ "hasOfferCatalog":{"@type":"OfferCatalog","name":"Jasa Virtualisasi Server (VMware, Proxmox, Hyper-V) & IT Monitoring",
+   "itemListElement":[
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Server Virtualization"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"VMware, Proxmox & Hyper-V"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Virtual Machine Deployment"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Server Consolidation"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Infrastructure Monitoring"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Network & Server Monitoring"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Performance & Availability Monitoring"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"System Alert & Notification"}}
+   ]}}
+</script>
+<script type="application/ld+json">
+{ "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+  {"@type":"Question","name":"Berapa VM yang bisa dijalankan satu server?","acceptedAnswer":{"@type":"Answer","text":"Tergantung spesifikasi server dan beban tiap VM. Yang menentukan biasanya jumlah inti CPU, kapasitas memori (RAM), dan kecepatan penyimpanan — bukan sekadar jumlah VM-nya. Server kelas menengah bisa menjalankan beberapa hingga puluhan VM ringan, sedangkan aplikasi berat butuh porsi sumber daya lebih besar. Saat assessment kami hitung kebutuhan tiap sistem Anda dan menyisakan cadangan kapasitas agar performa tetap aman ketika beban naik."}},
+  {"@type":"Question","name":"Apakah lisensi VMware wajib dibeli?","acceptedAnswer":{"@type":"Answer","text":"Tidak. VMware memakai skema lisensi berbayar, tetapi ada alternatif seperti Proxmox yang berbasis open source dan bisa dipakai tanpa biaya lisensi, dengan opsi langganan dukungan bila diperlukan. Hyper-V juga tersedia jika Anda sudah memakai Windows Server. Kami bantu bandingkan biaya, fitur, dan kemudahan perawatan ketiganya, lalu memilih yang paling sesuai dengan kondisi dan anggaran Anda."}},
+  {"@type":"Question","name":"Apakah bisa migrasi dari server fisik ke virtual?","acceptedAnswer":{"@type":"Answer","text":"Bisa. Proses ini disebut P2V (physical-to-virtual): isi server fisik disalin menjadi mesin virtual tanpa menginstal ulang aplikasi dari nol. Kami jadwalkan migrasi pada jam sepi, menyiapkan server lama sebagai cadangan sampai versi virtualnya terbukti berjalan normal, lalu memindahkan beban secara bertahap agar risiko downtime kecil."}}
+] }
+</script>
+</head>
+
+<body>
+
+	<!-- loder -->
+	<div class="loader-wrapper">
+		<span class="loader"></span>
+		<div class="loder-section left-section"></div>
+		<div class="loder-section right-section"></div>
+	</div>
+
+
+<!-- Top Header -->
+<div class="top-header-area"><div class="container"><div class="row align-items-center">
+  <div class="col-lg-6"><div class="header-info"><ul>
+    <li><i class="bi bi-geo-alt-fill"></i>Jakarta — on-site Jabodetabek, remote nasional</li>
+    <li><i class="bi bi-envelope"></i>info@filcom.id</li>
+  </ul></div></div>
+  <div class="col-lg-6"><div class="top-header-social-icon"><ul>
+    <li class="time-line"><i class="bi bi-alarm"></i>Senin–Jumat 09.00–17.00 WIB</li>
+    <li><a href="https://wa.me/6282290362121"><i class="fa-brands fa-whatsapp"></i></a></li>
+  </ul></div></div>
+</div></div></div>
+
+
+<!-- Header -->
+<div class="header-area style-two" id="sticky-header"><div class="container"><div class="row align-items-center">
+  <div class="col-lg-3"><div class="header-logo"><a href="../../index.html"><span style="font-size:1.6rem;font-weight:800;color:#1b2a4a">filcom<b style="color:#2d6cdf">.id</b></span></a></div></div>
+  <div class="col-lg-9"><div class="header-menu"><ul>
+    <li><a href="../../index.html">Beranda</a></li>
+    <li><a href="../../tentang-kami/index.html">Tentang Kami</a></li>
+    <li class="menu-item-has-children"><a href="../index.html">Layanan<i class="fas fa-chevron-down"></i></a>
+      <ul class="sub-menu">
+        <li><a href="../jaringan-dan-infrastruktur-it/index.html">Jaringan &amp; Infrastruktur IT</a></li>
+        <li><a href="../server-dan-infrastruktur-data/index.html">Server &amp; Infrastruktur Data</a></li>
+        <li><a href="../private-cloud-dan-digital-workplace/index.html">Private Cloud &amp; Digital Workplace</a></li>
+        <li><a href="../virtualisasi-server-dan-monitoring/index.html">Virtualisasi &amp; IT Monitoring</a></li>
+        <li><a href="../it-support-dan-managed-service/index.html">IT Support &amp; Managed Service</a></li>
+        <li><a href="../website-seo-dan-ai-automation/index.html">Website, SEO &amp; AI Automation</a></li>
+      </ul></li>
+    <li class="menu-item-has-children"><a href="../../industri/index.html">Industri<i class="fas fa-chevron-down"></i></a>
+      <ul class="sub-menu">
+        <li><a href="../../industri/umkm/index.html">UMKM</a></li>
+        <li><a href="../../industri/sekolah/index.html">Sekolah</a></li>
+        <li><a href="../../industri/kantor-dan-perusahaan/index.html">Kantor &amp; Perusahaan</a></li>
+      </ul></li>
+    <li><a href="../../artikel/index.html">Artikel</a></li>
+    <li><a href="../../kontak/index.html">Kontak</a></li>
+    <div class="header-button"><a href="../../kontak/index.html">Konsultasi Gratis</a></div>
+  </ul></div></div>
+</div></div></div>
+
+
+<!-- Mobile Menu -->
+<div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-none"><div class="mobile-menu"><nav class="header-menu"><ul class="nav_scroll">
+  <li><a href="../../index.html">Beranda</a></li>
+  <li><a href="../../tentang-kami/index.html">Tentang Kami</a></li>
+  <li class="menu-item-has-children"><a href="../index.html">Layanan</a><ul class="sub-menu">
+    <li><a href="../jaringan-dan-infrastruktur-it/index.html">Jaringan &amp; Infrastruktur IT</a></li>
+    <li><a href="../server-dan-infrastruktur-data/index.html">Server &amp; Infrastruktur Data</a></li>
+    <li><a href="../private-cloud-dan-digital-workplace/index.html">Private Cloud &amp; Digital Workplace</a></li>
+    <li><a href="../virtualisasi-server-dan-monitoring/index.html">Virtualisasi &amp; IT Monitoring</a></li>
+    <li><a href="../it-support-dan-managed-service/index.html">IT Support &amp; Managed Service</a></li>
+    <li><a href="../website-seo-dan-ai-automation/index.html">Website, SEO &amp; AI Automation</a></li>
+  </ul></li>
+  <li class="menu-item-has-children"><a href="../../industri/index.html">Industri</a><ul class="sub-menu">
+    <li><a href="../../industri/umkm/index.html">UMKM</a></li>
+    <li><a href="../../industri/sekolah/index.html">Sekolah</a></li>
+    <li><a href="../../industri/kantor-dan-perusahaan/index.html">Kantor &amp; Perusahaan</a></li>
+  </ul></li>
+  <li><a href="../../artikel/index.html">Artikel</a></li>
+  <li><a href="../../kontak/index.html">Kontak</a></li>
+  <li><a href="../../kontak/index.html">Konsultasi Gratis</a></li>
+</ul></nav></div></div>
+
+
+<!-- Breadcrumb -->
+<div class="breadcumb-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breadcumb-content">
+					<h4>Virtualisasi &amp; IT Monitoring</h4>
+					<h1>Jasa Virtualisasi Server (VMware, Proxmox, Hyper-V) &amp; IT Monitoring</h1>
+					<ul>
+						<li><a href="../../index.html">Beranda</a></li>
+						<li>&gt;</li>
+						<li><a href="../index.html">Layanan</a></li>
+						<li>&gt;</li>
+						<li>Jasa Virtualisasi Server (VMware, Proxmox, Hyper-V) &amp; IT Monitoring</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Service Details -->
+<div class="services-details-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="row">
+					<div class="col-lg-12">
+
+						<!-- Hero / intro -->
+						<div class="services-details-thumb">
+							<img src="../../assets/images/service-inner/service-details.jpg" alt="Teknisi Filcom.id menyiapkan virtualisasi server dan sistem monitoring di ruang server klien">
+						</div>
+						<div class="services-details-content">
+							<p class="services-details-desc">Mengoptimalkan pemanfaatan infrastruktur IT sekaligus memberikan visibilitas terhadap kondisi sistem, untuk menjaga ketersediaan dan performa layanan.</p>
+							<div class="hero-button">
+								<a href="https://wa.me/6282290362121?text=Halo%20Filcom.id%2C%20saya%20ingin%20konsultasi%20soal%20virtualisasi%20server">Konsultasi Gratis<i class="bi bi-arrow-right"></i></a>
+							</div>
+						</div>
+
+						<!-- Cocok kalau Anda mengalami -->
+						<div class="services-details-content">
+							<h2 class="services-details-title">Cocok kalau Anda mengalami</h2>
+							<ul class="filcom-problem-list">
+								<li>Terlalu banyak server fisik dengan utilisasi rendah dan biaya listrik tinggi</li>
+								<li>Butuh menambah sistem baru tapi tidak mau beli server baru</li>
+								<li>Tidak tahu ada masalah sampai user komplain</li>
+								<li>Tidak ada data historis performa untuk mengambil keputusan upgrade</li>
+								<li>Butuh notifikasi otomatis saat server atau jaringan bermasalah</li>
+							</ul>
+						</div>
+
+						<!-- Layanan yang kami tangani -->
+						<div class="services-details-content">
+							<h2 class="services-details-title">Layanan yang kami tangani</h2>
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>Server Virtualization</h3>
+											<p>Menjalankan beberapa server dalam bentuk mesin virtual di atas satu perangkat fisik, sehingga kapasitas yang selama ini menganggur bisa dipakai. Tiap sistem tetap terpisah dan bisa dipindahkan tanpa membongkar perangkat keras.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>VMware, Proxmox &amp; Hyper-V</h3>
+											<p>Kami pasang dan konfigurasi platform virtualisasi sesuai kebutuhan dan anggaran Anda, baik VMware, Proxmox, maupun Hyper-V. Pilihan platform dibahas dulu bersama Anda, termasuk sisi lisensi dan dukungan jangka panjangnya.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>Virtual Machine Deployment</h3>
+											<p>Pembuatan mesin virtual baru lengkap dengan sistem operasi serta alokasi CPU, memori, dan disk yang sesuai beban aplikasi. Template disiapkan agar penambahan VM berikutnya lebih cepat dan seragam.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>Server Consolidation</h3>
+											<p>Menggabungkan beban dari beberapa server fisik lama ke sedikit host virtualisasi. Hasilnya lebih sedikit perangkat yang dirawat, serta konsumsi listrik dan ruang rak yang lebih hemat.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>Infrastructure Monitoring</h3>
+											<p>Pemantauan menyeluruh terhadap host, mesin virtual, penyimpanan, dan layanan penting dari satu dasbor. Kondisi sistem terlihat sebelum berkembang menjadi gangguan yang dirasakan pengguna.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>Network &amp; Server Monitoring</h3>
+											<p>Memantau ketersediaan perangkat jaringan dan server beserta penggunaan CPU, memori, disk, dan trafik. Data dikumpulkan terus-menerus sehingga pola beban dan titik lemah mudah ditelusuri.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>Performance &amp; Availability Monitoring</h3>
+											<p>Mencatat waktu respons, uptime, dan tren performa layanan dari waktu ke waktu. Riwayat ini menjadi dasar keputusan kapan perlu menambah kapasitas atau melakukan upgrade.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>System Alert &amp; Notification</h3>
+											<p>Notifikasi otomatis lewat email, WhatsApp, atau Telegram saat server down, disk hampir penuh, atau layanan berhenti. Ambang batas peringatan disetel agar relevan dan tidak membanjiri tim.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Bagaimana kami mengerjakannya -->
+						<div class="services-details-content">
+							<h2 class="services-details-title">Bagaimana kami mengerjakannya</h2>
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3><span>01</span> Assessment beban &amp; inventaris server</h3>
+											<p>Kami data server fisik yang ada, beban aplikasi, penggunaan CPU dan memori, serta kebutuhan yang akan datang untuk menentukan apakah konsolidasi layak dan seberapa besar host yang dibutuhkan.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3><span>02</span> Desain platform virtualisasi &amp; penawaran</h3>
+											<p>Kami usulkan platform (VMware, Proxmox, atau Hyper-V) beserta rancangan host, penyimpanan, dan pola cadangan, lengkap dengan penawaran tertulis sebelum pekerjaan dimulai.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3><span>03</span> Deployment host, VM, &amp; migrasi P2V</h3>
+											<p>Host virtualisasi dipasang, mesin virtual dibuat, dan server fisik lama dipindahkan ke bentuk virtual (P2V) dengan jendela waktu yang disepakati agar operasional tidak terganggu.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3><span>04</span> Pasang monitoring, alert, &amp; serah terima</h3>
+											<p>Kami pasang sistem monitoring beserta ambang batas peringatan, uji notifikasi, lalu menyerahkan dokumentasi, akun administrator, dan panduan singkat untuk tim.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Cocok untuk -->
+						<div class="services-details-content">
+							<h2 class="services-details-title">Cocok untuk</h2>
+							<ul class="filcom-problem-list">
+								<li>Perusahaan dengan beberapa server</li>
+								<li>Sekolah dengan lab/aplikasi internal</li>
+								<li>Organisasi yang ingin efisiensi infrastruktur</li>
+							</ul>
+						</div>
+
+						<!-- FAQ -->
+						<div class="faqs-area style-one filcom-tight">
+							<div class="section-title style-one">
+								<h2>Pertanyaan yang sering diajukan</h2>
+							</div>
+							<div class="faqs-container">
+								<div class="faq-singular">
+									<h3 class="faq-question"><img src="../../assets/images/home-1/question.png" alt="Ikon pertanyaan" loading="lazy">Berapa VM yang bisa dijalankan satu server?</h3>
+									<div class="faq-answer"><div class="desc">Tergantung spesifikasi server dan beban tiap VM. Yang menentukan biasanya jumlah inti CPU, kapasitas memori (RAM), dan kecepatan penyimpanan — bukan sekadar jumlah VM-nya. Server kelas menengah bisa menjalankan beberapa hingga puluhan VM ringan, sedangkan aplikasi berat butuh porsi sumber daya lebih besar. Saat assessment kami hitung kebutuhan tiap sistem Anda dan menyisakan cadangan kapasitas agar performa tetap aman ketika beban naik.</div></div>
+								</div>
+								<div class="faq-singular">
+									<h3 class="faq-question"><img src="../../assets/images/home-1/question.png" alt="Ikon pertanyaan" loading="lazy">Apakah lisensi VMware wajib dibeli?</h3>
+									<div class="faq-answer"><div class="desc">Tidak. VMware memakai skema lisensi berbayar, tetapi ada alternatif seperti Proxmox yang berbasis open source dan bisa dipakai tanpa biaya lisensi, dengan opsi langganan dukungan bila diperlukan. Hyper-V juga tersedia jika Anda sudah memakai Windows Server. Kami bantu bandingkan biaya, fitur, dan kemudahan perawatan ketiganya, lalu memilih yang paling sesuai dengan kondisi dan anggaran Anda.</div></div>
+								</div>
+								<div class="faq-singular">
+									<h3 class="faq-question"><img src="../../assets/images/home-1/question.png" alt="Ikon pertanyaan" loading="lazy">Apakah bisa migrasi dari server fisik ke virtual?</h3>
+									<div class="faq-answer"><div class="desc">Bisa. Proses ini disebut P2V (physical-to-virtual): isi server fisik disalin menjadi mesin virtual tanpa menginstal ulang aplikasi dari nol. Kami jadwalkan migrasi pada jam sepi, menyiapkan server lama sebagai cadangan sampai versi virtualnya terbukti berjalan normal, lalu memindahkan beban secara bertahap agar risiko downtime kecil.</div></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Layanan terkait -->
+						<div class="services-details-content">
+							<h2 class="services-details-title">Layanan terkait</h2>
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3><a href="../server-dan-infrastruktur-data/index.html">Server &amp; Infrastruktur Data</a></h3>
+											<p>Virtualisasi berjalan di atas server fisik dan penyimpanan yang sehat. Bila server, storage, atau login terpusat belum tertata, bagian ini yang menyiapkan fondasinya lebih dulu.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3><a href="../it-support-dan-managed-service/index.html">IT Support &amp; Managed Service</a></h3>
+											<p>Setelah platform virtualisasi dan monitoring aktif, layanan ini yang menjaga perawatan rutin, menanggapi alert, dan menangani masalah harian tanpa perlu staf IT tetap.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- CTA + form -->
+						<div class="services-details-content">
+							<h2 class="services-details-title">Ceritakan kebutuhan virtualisasi Anda</h2>
+							<p class="services-details-desc">Konsultasi dan assessment awal gratis, tanpa komitmen. Kami membalas dalam 1×24 jam kerja.</p>
+							<div class="single-contact-box">
+								<form id="filcom-contact-form" action="#" method="post">
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="single-input-box">
+												<input type="text" name="nama" placeholder="Nama" required>
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="single-input-box">
+												<input type="tel" name="whatsapp" placeholder="Nomor WhatsApp" required>
+											</div>
+										</div>
+										<div class="col-lg-12">
+											<div class="single-input-box">
+												<select name="layanan" required>
+													<option value="">Layanan yang diminati</option>
+													<option>Jaringan &amp; Infrastruktur IT</option>
+													<option>Server &amp; Infrastruktur Data</option>
+													<option>Private Cloud &amp; Digital Workplace</option>
+													<option selected>Virtualisasi &amp; IT Monitoring</option>
+													<option>IT Support &amp; Managed Service</option>
+													<option>Website, SEO &amp; AI Automation</option>
+													<option>Belum yakin / konsultasi dulu</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-lg-12">
+											<div class="single-input-box">
+												<textarea name="pesan" placeholder="Ceritakan kebutuhan Anda" required></textarea>
+											</div>
+										</div>
+										<div class="col-lg-12">
+											<div class="single-input-box">
+												<button type="submit">Kirim &amp; Lanjut ke WhatsApp</button>
+											</div>
+										</div>
+									</div>
+								</form>
+								<div class="filcom-form-thanks" id="filcom-form-thanks">Terima kasih. Kami membalas dalam 1×24 jam kerja. Anda akan diarahkan ke WhatsApp untuk mempercepat respons.</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- Sidebar -->
+			<div class="col-lg-4">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="widget-sidber">
+							<div class="widget-sidber-content">
+								<h4>Semua Layanan</h4>
+							</div>
+							<div class="widget-category">
+								<ul>
+									<li><a href="../jaringan-dan-infrastruktur-it/index.html">Jaringan &amp; Infrastruktur IT<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../server-dan-infrastruktur-data/index.html">Server &amp; Infrastruktur Data<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../private-cloud-dan-digital-workplace/index.html">Private Cloud &amp; Digital Workplace<i class="bi bi-arrow-right"></i></a></li>
+									<li><a class="active" href="#">Virtualisasi &amp; IT Monitoring<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../it-support-dan-managed-service/index.html">IT Support &amp; Managed Service<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../website-seo-dan-ai-automation/index.html">Website, SEO &amp; AI Automation<i class="bi bi-arrow-right"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="widget-sidber-contact-box">
+							<p class="widget-sidber-contact-text">Butuh bantuan cepat?</p>
+							<h3 class="widget-sidber-contact-number"><a href="tel:+6282290362121">+62 822-9036-2121</a></h3>
+							<span class="widget-sidber-contact-gmail"><i class="bi bi-envelope-fill"></i> <a href="mailto:info@filcom.id">info@filcom.id</a></span>
+							<div class="widget-sidber-contact-btn">
+								<a href="../../kontak/index.html">Hubungi Kami <i class="bi bi-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Footer -->
+<div class="footer-area style-one"><div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <div class="footer-logo"><a href="../../index.html"><span style="font-size:1.6rem;font-weight:800;color:#1b2a4a">filcom<b style="color:#2d6cdf">.id</b></span></a></div>
+      <div class="footer-widget-desc"><p>Solusi IT dan digital untuk bisnis yang ingin berjalan tanpa gangguan — infrastruktur, cloud, website, SEO, dan otomasi AI ditangani satu tim.</p></div>
+    </div>
+    <div class="col-lg-2 col-md-6"><div class="footer-widget-content">
+      <div class="footer-widget-title"><h4>Perusahaan</h4></div>
+      <div class="footer-widget-menu"><ul>
+        <li><a href="../../tentang-kami/index.html"><i class="bi bi-arrow-right-circle"></i>Tentang Kami</a></li>
+        <li><a href="../index.html"><i class="bi bi-arrow-right-circle"></i>Semua Layanan</a></li>
+        <li><a href="../../industri/index.html"><i class="bi bi-arrow-right-circle"></i>Industri</a></li>
+        <li><a href="../../artikel/index.html"><i class="bi bi-arrow-right-circle"></i>Artikel</a></li>
+        <li><a href="../../kontak/index.html"><i class="bi bi-arrow-right-circle"></i>Kontak</a></li>
+      </ul></div>
+    </div></div>
+    <div class="col-lg-3 col-md-6"><div class="footer-widget-content">
+      <div class="footer-widget-title"><h4>Layanan</h4></div>
+      <div class="footer-widget-menu"><ul>
+        <li><a href="../jaringan-dan-infrastruktur-it/index.html"><i class="bi bi-arrow-right-circle"></i>Jaringan &amp; Infrastruktur IT</a></li>
+        <li><a href="../server-dan-infrastruktur-data/index.html"><i class="bi bi-arrow-right-circle"></i>Server &amp; Infrastruktur Data</a></li>
+        <li><a href="../private-cloud-dan-digital-workplace/index.html"><i class="bi bi-arrow-right-circle"></i>Private Cloud &amp; Digital Workplace</a></li>
+        <li><a href="../virtualisasi-server-dan-monitoring/index.html"><i class="bi bi-arrow-right-circle"></i>Virtualisasi &amp; IT Monitoring</a></li>
+        <li><a href="../it-support-dan-managed-service/index.html"><i class="bi bi-arrow-right-circle"></i>IT Support &amp; Managed Service</a></li>
+        <li><a href="../website-seo-dan-ai-automation/index.html"><i class="bi bi-arrow-right-circle"></i>Website, SEO &amp; AI Automation</a></li>
+      </ul></div>
+    </div></div>
+    <div class="col-lg-3 col-md-6"><div class="footer-widget-content">
+      <div class="footer-widget-title"><h4>Kontak</h4></div>
+      <div class="footer-widget-menu"><ul>
+        <li><a href="https://wa.me/6282290362121"><i class="bi bi-whatsapp"></i>WhatsApp +62 822-9036-2121</a></li>
+        <li><a href="mailto:info@filcom.id"><i class="bi bi-envelope"></i>info@filcom.id</a></li>
+        <li><i class="bi bi-geo-alt"></i>Jakarta — on-site Jabodetabek</li>
+        <li><i class="bi bi-clock"></i>Senin–Jumat 09.00–17.00 WIB</li>
+      </ul></div>
+    </div></div>
+  </div>
+  <div class="row align-items-center"><div class="footer-bottom-area"><div class="row">
+    <div class="col-lg-12"><div class="footer-bottom-content">
+      <p>&copy; <span id="filcom-year">2026</span> Filcom.id — Solusi IT &amp; Digital. Area layanan: on-site Jabodetabek, remote &amp; konsultasi nasional.</p>
+    </div></div>
+  </div></div></div>
+</div></div>
+
+
+<!-- Floating WhatsApp -->
+<a class="filcom-wa" href="https://wa.me/6282290362121?text=Halo%20Filcom.id%2C%20saya%20ingin%20konsultasi%20soal%20virtualisasi%20server" aria-label="Konsultasi via WhatsApp">
+  <i class="bi bi-whatsapp"></i><span>Konsultasi WhatsApp</span>
+</a>
+
+
+<!-- Scroll Up -->
+<div class="prgoress_indicator active-progress">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 212.78;"></path>
+        </svg>
+ </div>
+
+<script src="../../assets/js/vendor/jquery-3.6.2.min.js"></script>
+<script src="../../assets/js/bootstrap.min.js" defer></script>
+<script src="../../assets/js/owl.carousel.min.js" defer></script>
+<script src="../../assets/js/animated-text.js" defer></script>
+<script src="../../assets/js/wow.js" defer></script>
+<script src="../../assets/js/imagesloaded.pkgd.min.js" defer></script>
+<script src="../../venobox/venobox.min.js" defer></script>
+<script src="../../assets/js/isotope.pkgd.min.js" defer></script>
+<script src="../../assets/js/jquery.meanmenu.js" defer></script>
+<script src="../../assets/js/theme.js" defer></script>
+<script src="../../assets/js/coustom-carousel.js" defer></script>
+<script src="../../assets/js/scroll-up.js" defer></script>
+<script src="../../assets/js/filcom-form.js" defer></script>
+<script>document.getElementById('filcom-year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
