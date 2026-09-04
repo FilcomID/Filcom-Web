@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MGZJP9WP');</script>
+<!-- End Google Tag Manager -->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cara Pindah ke Email Domain Sendiri | Filcom.id</title>
+<meta name="description" content="Langkah memindahkan email perusahaan dari Gmail atau Yahoo pribadi ke email dengan domain sendiri, termasuk MX, SPF, DKIM, DMARC, dan migrasi data lama.">
+<link rel="canonical" href="https://filcom.id/artikel/cara-memindahkan-email-perusahaan-ke-domain-sendiri/">
+<link rel="icon" type="image/svg+xml" href="../../assets/images/fav-icon/filcom.svg">
+<meta property="og:title" content="Cara Memindahkan Email Perusahaan ke Domain Sendiri">
+<meta property="og:description" content="Langkah memindahkan email perusahaan dari Gmail atau Yahoo pribadi ke email dengan domain sendiri, termasuk MX, SPF, DKIM, DMARC, dan migrasi data lama.">
+<meta property="og:image" content="https://filcom.id/assets/images/og-filcom.jpg">
+<meta property="og:url" content="https://filcom.id/artikel/cara-memindahkan-email-perusahaan-ke-domain-sendiri/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/css/bootstrap.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/all.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/theme-default.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/meanmenu.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/bootstrap-icons.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/style.css?v=2" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/responsive.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../assets/css/filcom.css?v=16" type="text/css" media="all">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://filcom.id/#organization",
+  "name": "Filcom.id",
+  "alternateName": "Filcom",
+  "url": "https://filcom.id/",
+  "logo": "https://filcom.id/assets/images/fav-icon/filcom.svg",
+  "image": "https://filcom.id/assets/images/og-filcom.jpg",
+  "description": "Penyedia solusi IT untuk UMKM, kantor, sekolah, dan organisasi di Indonesia: jaringan, server, private cloud, IT support, website, SEO, dan otomasi AI.",
+  "slogan": "Solusi IT dan Digital untuk Bisnis yang Ingin Berjalan Tanpa Gangguan",
+  "inLanguage": "id-ID",
+  "priceRange": "$$",
+  "currenciesAccepted": "IDR",
+  "areaServed": [
+    { "@type": "AdministrativeArea", "name": "Jabodetabek" },
+    { "@type": "City", "name": "Jakarta" },
+    { "@type": "Country", "name": "Indonesia" }
+  ],
+  "telephone": "+62-877-8978-4423",
+  "email": "info@filcom.id",
+  "address": { "@type": "PostalAddress", "addressLocality": "Jakarta", "addressRegion": "DKI Jakarta", "addressCountry": "ID" },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00", "closes": "17:00"
+  }],
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+62-877-8978-4423",
+    "email": "info@filcom.id",
+    "contactType": "customer service",
+    "areaServed": "ID",
+    "availableLanguage": ["id","en"]
+  }],
+  "knowsAbout": [
+    "Jaringan komputer kantor","LAN dan WiFi","Windows Server","Linux Server",
+    "Active Directory","File server","Private cloud","Nextcloud","Mail server",
+    "Virtualisasi server","VMware","Proxmox","Hyper-V","IT monitoring",
+    "Managed IT service","IT support","Pembuatan website company profile",
+    "Technical SEO","Local SEO","Schema markup","Core Web Vitals",
+    "Google Analytics 4","Google Tag Manager","Otomasi workflow n8n","AI automation"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Layanan Filcom.id",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Jaringan & Infrastruktur IT", "url": "https://filcom.id/layanan/jaringan-dan-infrastruktur-it/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Server & Infrastruktur Data", "url": "https://filcom.id/layanan/server-dan-infrastruktur-data/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Private Cloud & Digital Workplace", "url": "https://filcom.id/layanan/private-cloud-dan-digital-workplace/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Virtualisasi & IT Monitoring", "url": "https://filcom.id/layanan/virtualisasi-server-dan-monitoring/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IT Support & Managed Service", "url": "https://filcom.id/layanan/it-support-dan-managed-service/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website, SEO & AI Automation", "url": "https://filcom.id/layanan/website-seo-dan-ai-automation/" } }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Beranda","item":"https://filcom.id/"},
+  {"@type":"ListItem","position":2,"name":"Artikel","item":"https://filcom.id/artikel/"},
+  {"@type":"ListItem","position":3,"name":"Cara Memindahkan Email Perusahaan ke Domain Sendiri","item":"https://filcom.id/artikel/cara-memindahkan-email-perusahaan-ke-domain-sendiri/"}
+]}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://filcom.id/artikel/cara-memindahkan-email-perusahaan-ke-domain-sendiri/#article",
+  "headline": "Cara Memindahkan Email Perusahaan ke Domain Sendiri",
+  "description": "Langkah memindahkan email perusahaan dari Gmail atau Yahoo pribadi ke email dengan domain sendiri, termasuk MX, SPF, DKIM, DMARC, dan migrasi data lama.",
+  "inLanguage": "id-ID",
+  "datePublished": "2026-09-04",
+  "dateModified": "2026-09-04",
+  "author": { "@id": "https://filcom.id/#organization" },
+  "publisher": { "@id": "https://filcom.id/#organization" },
+  "image": "https://filcom.id/assets/images/og-filcom.jpg",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://filcom.id/artikel/cara-memindahkan-email-perusahaan-ke-domain-sendiri/" },
+  "about": [
+    { "@type": "Thing", "name": "Email" },
+    { "@type": "Thing", "name": "Domain name" },
+    { "@type": "Thing", "name": "MX record" },
+    { "@type": "Thing", "name": "DMARC" }
+  ],
+  "isPartOf": { "@type": "Blog", "@id": "https://filcom.id/artikel/#blog", "name": "Artikel & Panduan Filcom.id" }
+}
+</script>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGZJP9WP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	<!-- loder -->
+	<div class="loader-wrapper">
+		<span class="loader"></span>
+		<div class="loder-section left-section"></div>
+		<div class="loder-section right-section"></div>
+	</div>
+
+
+<!-- Top Header -->
+<div class="top-header-area"><div class="container"><div class="row align-items-center">
+  <div class="col-lg-6"><div class="header-info"><ul>
+    <li><i class="bi bi-geo-alt-fill"></i>Jakarta — on-site Jabodetabek, remote nasional</li>
+    <li><i class="bi bi-envelope"></i>info@filcom.id</li>
+  </ul></div></div>
+  <div class="col-lg-6"><div class="top-header-social-icon"><ul>
+    <li class="time-line"><i class="bi bi-alarm"></i>Senin–Jumat 09.00–17.00 WIB</li>
+    <li><a href="https://wa.me/6287789784423"><i class="fa-brands fa-whatsapp"></i></a></li>
+  </ul></div></div>
+</div></div></div>
+
+
+<!-- Header -->
+<div class="header-area style-two" id="sticky-header"><div class="container"><div class="row align-items-center">
+  <div class="col-lg-3"><div class="header-logo"><a href="../../index.html"><span style="font-size:1.6rem;font-weight:800;color:#1b2a4a">filcom<b style="color:#2d6cdf">.id</b></span></a></div></div>
+  <div class="col-lg-9"><div class="header-menu"><ul>
+    <li><a href="../../index.html">Beranda</a></li>
+    <li><a href="../../tentang-kami/index.html">Tentang Kami</a></li>
+    <li class="menu-item-has-children"><a href="../../layanan/index.html">Layanan<i class="fas fa-chevron-down"></i></a>
+      <ul class="sub-menu">
+        <li><a href="../../layanan/jaringan-dan-infrastruktur-it/index.html">Jaringan &amp; Infrastruktur IT</a></li>
+        <li><a href="../../layanan/server-dan-infrastruktur-data/index.html">Server &amp; Infrastruktur Data</a></li>
+        <li><a href="../../layanan/private-cloud-dan-digital-workplace/index.html">Private Cloud &amp; Digital Workplace</a></li>
+        <li><a href="../../layanan/virtualisasi-server-dan-monitoring/index.html">Virtualisasi &amp; IT Monitoring</a></li>
+        <li><a href="../../layanan/it-support-dan-managed-service/index.html">IT Support &amp; Managed Service</a></li>
+        <li><a href="../../layanan/website-seo-dan-ai-automation/index.html">Website, SEO &amp; AI Automation</a></li>
+      </ul></li>
+    <li class="menu-item-has-children"><a href="../../industri/index.html">Industri<i class="fas fa-chevron-down"></i></a>
+      <ul class="sub-menu">
+        <li><a href="../../industri/umkm/index.html">UMKM</a></li>
+        <li><a href="../../industri/sekolah/index.html">Sekolah</a></li>
+        <li><a href="../../industri/kantor-dan-perusahaan/index.html">Kantor &amp; Perusahaan</a></li>
+      </ul></li>
+    <li><a href="../index.html">Artikel</a></li>
+    <li><a href="../../kontak/index.html">Kontak</a></li>
+    <div class="header-button"><a href="../../kontak/index.html">Konsultasi Gratis</a></div>
+  </ul></div></div>
+</div></div></div>
+
+
+<!-- Mobile Menu -->
+<div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-none"><div class="mobile-menu"><nav class="header-menu"><ul class="nav_scroll">
+  <li><a href="../../index.html">Beranda</a></li>
+  <li><a href="../../tentang-kami/index.html">Tentang Kami</a></li>
+  <li class="menu-item-has-children"><a href="../../layanan/index.html">Layanan</a><ul class="sub-menu">
+    <li><a href="../../layanan/jaringan-dan-infrastruktur-it/index.html">Jaringan &amp; Infrastruktur IT</a></li>
+    <li><a href="../../layanan/server-dan-infrastruktur-data/index.html">Server &amp; Infrastruktur Data</a></li>
+    <li><a href="../../layanan/private-cloud-dan-digital-workplace/index.html">Private Cloud &amp; Digital Workplace</a></li>
+    <li><a href="../../layanan/virtualisasi-server-dan-monitoring/index.html">Virtualisasi &amp; IT Monitoring</a></li>
+    <li><a href="../../layanan/it-support-dan-managed-service/index.html">IT Support &amp; Managed Service</a></li>
+    <li><a href="../../layanan/website-seo-dan-ai-automation/index.html">Website, SEO &amp; AI Automation</a></li>
+  </ul></li>
+  <li class="menu-item-has-children"><a href="../../industri/index.html">Industri</a><ul class="sub-menu">
+    <li><a href="../../industri/umkm/index.html">UMKM</a></li>
+    <li><a href="../../industri/sekolah/index.html">Sekolah</a></li>
+    <li><a href="../../industri/kantor-dan-perusahaan/index.html">Kantor &amp; Perusahaan</a></li>
+  </ul></li>
+  <li><a href="../index.html">Artikel</a></li>
+  <li><a href="../../kontak/index.html">Kontak</a></li>
+  <li><a href="../../kontak/index.html">Konsultasi Gratis</a></li>
+</ul></nav></div></div>
+
+
+<!-- Breadcrumb -->
+<div class="breadcumb-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breadcumb-content">
+					<h4>Artikel</h4>
+					<h1>Cara Memindahkan Email Perusahaan ke Domain Sendiri</h1>
+					<ul>
+						<li><a href="../../index.html">Beranda</a></li>
+						<li>&gt;</li>
+						<li><a href="../index.html">Artikel</a></li>
+						<li>&gt;</li>
+						<li>Cara Memindahkan Email Perusahaan ke Domain Sendiri</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Blog Details -->
+<div class="blog-details-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="blog-details-content">
+							<div class="meta-blog">
+								<span class="mate-text">Filcom.id &middot; 4 September 2026</span>
+							</div>
+
+															<p class="blog-details-desc">Memindahkan email perusahaan ke domain sendiri dilakukan dalam tujuh langkah: siapkan domain beserta akses ke pengaturan DNS-nya, pilih penyedia email, tentukan daftar alamat yang akan dibuat, arahkan MX record ke penyedia baru, pasang SPF, DKIM, dan DMARC, uji kirim dan terima, lalu pindahkan email lama lewat sinkronisasi IMAP sebelum mengalihkan seluruh perangkat. Alamat lama sebaiknya tidak langsung dimatikan &mdash; aktifkan penerusan selama beberapa waktu agar tidak ada surat masuk yang hilang selama masa peralihan. Seluruh proses biasanya bisa dirampungkan dalam hitungan hari untuk kantor kecil, dengan catatan penting: perubahan DNS butuh waktu menyebar, dan email dari domain baru rawan masuk folder spam pada minggu-minggu pertama. Panduan berikut menjelaskan tiap langkah beserta jebakan yang paling sering membuat migrasi berantakan.</p>
+								<h2 class="blog-details-title">Kenapa email domain sendiri itu penting?</h2>
+								<p class="blog-details-desc">Alasan pertama adalah kredibilitas. Alamat dengan domain perusahaan menunjukkan bahwa bisnis Anda punya identitas tetap, dan calon pelanggan &mdash; terutama pada transaksi bernilai besar atau tender &mdash; membacanya sebagai tanda keseriusan. Alamat pribadi berdomain umum menimbulkan pertanyaan yang tidak perlu.</p>
+								<p class="blog-details-desc">Alasan kedua, dan sebenarnya lebih penting, adalah kontrol. Kalau seorang karyawan menerima pesanan pelanggan di akun pribadinya lalu ia berhenti bekerja, akun itu ikut pergi bersama seluruh riwayat percakapan, kontak, dan pesanan yang belum selesai. Perusahaan tidak punya hak apa pun atas akun tersebut. Dengan domain sendiri, akun dimiliki perusahaan: bisa dibuat, dinonaktifkan, dialihkan ke pengganti, dan diarsipkan sesuai kebutuhan. Alasan ketiga adalah keamanan dan kepatuhan &mdash; hanya dengan domain sendiri Anda bisa memasang perlindungan anti-pemalsuan seperti SPF, DKIM, dan DMARC, serta menerapkan kebijakan kata sandi dan verifikasi dua langkah secara seragam.</p>
+								<h2 class="blog-details-title">Pilih layanan berlangganan atau mail server sendiri?</h2>
+								<p class="blog-details-desc">Ada dua jalur. Jalur pertama adalah layanan berlangganan seperti Google Workspace atau Microsoft 365. Kelebihannya: pengaturannya cepat, ketersediaan layanannya tinggi, penyaring spam sudah matang, aplikasi di ponsel dan komputer sudah dikenal semua orang, dan reputasi pengiriman ditangani penyedia sehingga email Anda cenderung lebih mudah diterima. Kekurangannya: biaya dihitung per pengguna per bulan dan naik seiring bertambahnya karyawan, serta data berada di infrastruktur pihak lain.</p>
+								<p class="blog-details-desc">Jalur kedua adalah membangun mail server sendiri. Kelebihannya: data tersimpan di server milik Anda, jumlah alamat dan kapasitas kotak surat tidak dibatasi skema langganan, dan biaya jangka panjang lebih dapat diprediksi ketika jumlah pengguna banyak. Kekurangannya harus dilihat jujur. Mail server menuntut perawatan berkelanjutan: pembaruan keamanan, pengelolaan sertifikat, penyaringan spam masuk dan keluar, pemantauan antrean, serta cadangan yang teruji. Tantangan terberatnya adalah reputasi IP: alamat IP baru belum dikenal penyedia besar, sehingga email Anda berpotensi ditolak atau masuk spam sampai reputasinya terbangun. Itu sebabnya mail server sendiri lebih cocok untuk organisasi yang punya alasan kuat soal kerahasiaan data atau jumlah pengguna besar, dan punya orang yang benar-benar merawatnya. Untuk kantor kecil tanpa staf IT tetap, layanan berlangganan biasanya pilihan yang lebih realistis.</p>
+								<h2 class="blog-details-title">Apa yang perlu disiapkan sebelum mulai?</h2>
+								<p class="blog-details-desc">Pastikan tiga hal berikut sudah di tangan sebelum menyentuh pengaturan apa pun. Pertama, domain terdaftar atas nama perusahaan, bukan atas nama pribadi vendor atau mantan karyawan. Periksa siapa pemilik akun registrar dan pastikan perusahaan bisa masuk ke sana. Kedua, akses ke pengelolaan DNS domain tersebut, karena hampir seluruh langkah teknis dilakukan di sana. Ketiga, daftar lengkap orang dan fungsi yang akan mendapat alamat.</p>
+								<p class="blog-details-desc">Susun daftar alamatnya dengan pola yang konsisten, misalnya nama depan atau kombinasi nama depan dan belakang untuk perorangan. Tambahkan alamat berbasis fungsi seperti info, sales, atau finance untuk hal-hal yang tidak boleh bergantung pada satu orang, dan tentukan siapa yang menerimanya. Alamat fungsi sebaiknya berupa grup atau alias yang bisa dialihkan, bukan kotak surat pribadi seseorang. Catat juga alamat lama mana yang selama ini dipakai berhubungan dengan pelanggan, karena semuanya perlu penerusan nanti.</p>
+								<h2 class="blog-details-title">Bagaimana cara mengarahkan MX record?</h2>
+								<p class="blog-details-desc">MX record adalah catatan DNS yang memberi tahu dunia ke server mana email untuk domain Anda harus dikirim. Selama MX masih menunjuk ke tempat lama, email tetap masuk ke sana meski akun baru sudah jadi. Penyedia email akan memberi daftar nilai MX beserta prioritasnya &mdash; angka yang lebih kecil berarti prioritas lebih tinggi.</p>
+								<p class="blog-details-desc">Yang perlu diperhatikan: hapus MX lama setelah yang baru dipastikan bekerja, jangan biarkan keduanya berdampingan dalam waktu lama karena email bisa terbagi ke dua tempat dan sebagian orang menerima, sebagian tidak. Sebelum mengubah, turunkan dulu nilai TTL catatan MX &mdash; misalnya menjadi lima menit &mdash; dan tunggu selama durasi TTL lama berlalu. Dengan begitu, saat perubahan dilakukan, penyebarannya cepat dan Anda bisa mengembalikan keadaan dengan cepat pula bila ada masalah. Setelah semuanya stabil beberapa hari, TTL boleh dinaikkan kembali ke nilai normal.</p>
+								<h2 class="blog-details-title">Apa fungsi SPF, DKIM, dan DMARC?</h2>
+								<p class="blog-details-desc">Ketiganya adalah catatan DNS yang menjaga agar email Anda dipercaya dan agar orang lain tidak bisa mengatasnamakan domain Anda. Tanpa ketiganya, email keluar Anda lebih mudah masuk folder spam dan domain Anda lebih mudah dipalsukan untuk penipuan.</p>
+								<p class="blog-details-desc"><strong>SPF</strong> adalah daftar pihak yang berhak mengirim email atas nama domain Anda. Anggap saja seperti daftar tamu: server penerima memeriksa apakah pengirimnya ada di daftar itu. Kalau Anda memakai layanan lain untuk mengirim email &mdash; misalnya sistem penagihan atau formulir website &mdash; keduanya harus ikut dicantumkan. Satu domain hanya boleh punya satu catatan SPF, jadi semua pihak digabung dalam satu baris.</p>
+								<p class="blog-details-desc"><strong>DKIM</strong> adalah tanda tangan digital pada setiap email keluar. Penyedia memberi Anda kunci publik untuk dipasang di DNS, dan server penerima memakainya untuk memastikan isi email tidak diubah di tengah jalan serta benar-benar berasal dari sistem yang sah. Ini seperti segel pada amplop.</p>
+								<p class="blog-details-desc"><strong>DMARC</strong> adalah kebijakan yang menyatakan apa yang harus dilakukan penerima ketika sebuah email gagal pemeriksaan SPF dan DKIM: dibiarkan, ditandai sebagai spam, atau ditolak. DMARC juga bisa mengirimkan laporan agar Anda tahu siapa saja yang mengirim atas nama domain Anda. Praktik yang aman adalah memulai dengan kebijakan paling longgar sambil membaca laporannya selama beberapa minggu, memastikan tidak ada sistem sah yang ikut tersaring, lalu memperketat kebijakan secara bertahap. Langsung memasang kebijakan tolak sejak hari pertama berisiko membuat email resmi perusahaan sendiri berhenti sampai.</p>
+								<h2 class="blog-details-title">Bagaimana memindahkan email lama dan mengalihkan perangkat?</h2>
+								<p class="blog-details-desc">Setelah akun baru aktif dan uji kirim-terima berhasil &mdash; kirim dari akun baru ke alamat luar, balas dari luar ke akun baru, dan periksa apakah masuk ke kotak masuk atau ke spam &mdash; barulah pindahkan data lama. Cara yang paling umum adalah sinkronisasi IMAP: penyedia baru menghubungi kotak surat lama dengan kredensialnya, lalu menyalin folder, email, dan lampiran ke akun baru. Sebagian besar penyedia berlangganan menyediakan alat migrasi bawaan untuk ini. Kalau tidak tersedia, aplikasi email desktop bisa dipakai untuk menyambungkan kedua akun sekaligus dan menyalin folder secara manual.</p>
+								<p class="blog-details-desc">Ingat bahwa IMAP hanya memindahkan email. Kontak dan kalender biasanya perlu diekspor dan diimpor terpisah. Setelah sinkronisasi selesai, ambil sampel beberapa folder dan bandingkan jumlah pesannya, terutama folder terkirim dan arsip yang sering terlewat. Baru setelah itu alihkan aplikasi email di komputer dan ponsel setiap orang ke akun baru, dan pastikan tanda tangan email diperbarui dengan alamat baru.</p>
+								<h2 class="blog-details-title">Kapan alamat lama boleh dimatikan?</h2>
+								<p class="blog-details-desc">Jangan matikan kotak surat lama begitu migrasi selesai. Aktifkan penerusan dari alamat lama ke alamat baru dan biarkan berjalan setidaknya beberapa bulan, karena pelanggan, pemasok, dan layanan yang terdaftar dengan alamat lama tidak akan langsung berpindah. Selama periode itu, kerjakan pembaruan alamat pada hal-hal yang sering terlupa: akun bank dan sistem pembayaran, akun media sosial, pendaftaran domain dan hosting, tagihan langganan perangkat lunak, kartu nama, tanda tangan email, profil di direktori bisnis, dan formulir di website.</p>
+								<p class="blog-details-desc">Selama minggu-minggu awal, awasi juga keterkiriman. Domain baru belum punya riwayat, sehingga sebagian penerima mungkin menaruhnya di spam. Naikkan volume pengiriman secara bertahap, hindari mengirim pesan massal dari domain baru pada hari-hari pertama, dan minta rekan bisnis menandai email Anda sebagai bukan spam bila terlanjur tersaring. Periksa juga laporan DMARC untuk memastikan tidak ada sistem sah yang tertinggal dari konfigurasi. Setelah beberapa bulan berjalan tanpa keluhan dan tidak ada lagi surat penting yang masuk lewat penerusan, alamat lama baru layak dinonaktifkan &mdash; sebaiknya diarsipkan lebih dulu, bukan dihapus.</p>
+								<h2 class="blog-details-title">Langkah berikutnya</h2>
+								<p class="blog-details-desc">Migrasi email adalah pekerjaan yang tampak sederhana tetapi punya banyak titik yang bisa membuat surat masuk hilang: TTL yang tidak disiapkan, MX ganda, SPF yang tidak lengkap, atau kotak surat lama yang dimatikan terlalu cepat. Kalau Anda ingin peralihan berjalan tanpa kehilangan email, atau sedang menimbang antara layanan berlangganan dan mail server sendiri di atas infrastruktur milik perusahaan, Filcom.id menangani perencanaan hingga migrasinya lewat layanan <a href="../../layanan/private-cloud-dan-digital-workplace/index.html">private cloud dan digital workplace</a>.</p>
+								<div class="hero-button">
+									<a href="../../layanan/private-cloud-dan-digital-workplace/index.html">Lihat layanan Private Cloud &amp; Digital Workplace<i class="bi bi-arrow-right"></i></a>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Sidebar -->
+			<div class="col-lg-4">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="widget-sidber">
+							<div class="widget-sidber-content">
+								<h4>Kategori</h4>
+							</div>
+							<div class="widget-category">
+								<ul>
+									<li><a href="../../layanan/jaringan-dan-infrastruktur-it/index.html">Jaringan &amp; Infrastruktur IT<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../../layanan/server-dan-infrastruktur-data/index.html">Server &amp; Infrastruktur Data<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../../layanan/private-cloud-dan-digital-workplace/index.html">Private Cloud &amp; Digital Workplace<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../../layanan/virtualisasi-server-dan-monitoring/index.html">Virtualisasi &amp; IT Monitoring<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../../layanan/it-support-dan-managed-service/index.html">IT Support &amp; Managed Service<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../../layanan/website-seo-dan-ai-automation/index.html">Website, SEO &amp; AI Automation<i class="bi bi-arrow-right"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="widget-sidber">
+							<div class="widget-sidber-content">
+								<h4>Artikel Lain</h4>
+							</div>
+							<div class="widget-category">
+								<ul>
+									<li><a href="../index.html">Semua Artikel &amp; Panduan<i class="bi bi-arrow-right"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="widget-sidber-contact-box">
+							<p class="widget-sidber-contact-text">Butuh bantuan cepat?</p>
+							<h3 class="widget-sidber-contact-number">+62 877-8978-4423</h3>
+							<span class="widget-sidber-contact-gmail"><i class="bi bi-envelope-fill"></i> info@filcom.id</span>
+							<div class="widget-sidber-contact-btn">
+								<a href="../../kontak/index.html">Hubungi Kami <i class="bi bi-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Footer -->
+<div class="footer-area style-one"><div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <div class="footer-logo"><a href="../../index.html"><span style="font-size:1.6rem;font-weight:800;color:#1b2a4a">filcom<b style="color:#2d6cdf">.id</b></span></a></div>
+      <div class="footer-widget-desc"><p>Solusi IT dan digital untuk bisnis yang ingin berjalan tanpa gangguan — infrastruktur, cloud, website, SEO, dan otomasi AI ditangani satu tim.</p></div>
+    </div>
+    <div class="col-lg-2 col-md-6"><div class="footer-widget-content">
+      <div class="footer-widget-title"><h4>Perusahaan</h4></div>
+      <div class="footer-widget-menu"><ul>
+        <li><a href="../../tentang-kami/index.html"><i class="bi bi-arrow-right-circle"></i>Tentang Kami</a></li>
+        <li><a href="../../layanan/index.html"><i class="bi bi-arrow-right-circle"></i>Semua Layanan</a></li>
+        <li><a href="../../industri/index.html"><i class="bi bi-arrow-right-circle"></i>Industri</a></li>
+        <li><a href="../index.html"><i class="bi bi-arrow-right-circle"></i>Artikel</a></li>
+        <li><a href="../../kontak/index.html"><i class="bi bi-arrow-right-circle"></i>Kontak</a></li>
+      </ul></div>
+    </div></div>
+    <div class="col-lg-3 col-md-6"><div class="footer-widget-content">
+      <div class="footer-widget-title"><h4>Layanan</h4></div>
+      <div class="footer-widget-menu"><ul>
+        <li><a href="../../layanan/jaringan-dan-infrastruktur-it/index.html"><i class="bi bi-arrow-right-circle"></i>Jaringan &amp; Infrastruktur IT</a></li>
+        <li><a href="../../layanan/server-dan-infrastruktur-data/index.html"><i class="bi bi-arrow-right-circle"></i>Server &amp; Infrastruktur Data</a></li>
+        <li><a href="../../layanan/private-cloud-dan-digital-workplace/index.html"><i class="bi bi-arrow-right-circle"></i>Private Cloud &amp; Digital Workplace</a></li>
+        <li><a href="../../layanan/virtualisasi-server-dan-monitoring/index.html"><i class="bi bi-arrow-right-circle"></i>Virtualisasi &amp; IT Monitoring</a></li>
+        <li><a href="../../layanan/it-support-dan-managed-service/index.html"><i class="bi bi-arrow-right-circle"></i>IT Support &amp; Managed Service</a></li>
+        <li><a href="../../layanan/website-seo-dan-ai-automation/index.html"><i class="bi bi-arrow-right-circle"></i>Website, SEO &amp; AI Automation</a></li>
+      </ul></div>
+    </div></div>
+    <div class="col-lg-3 col-md-6"><div class="footer-widget-content">
+      <div class="footer-widget-title"><h4>Kontak</h4></div>
+      <div class="footer-widget-menu"><ul>
+        <li><a href="https://wa.me/6287789784423"><i class="bi bi-whatsapp"></i>WhatsApp +62 877-8978-4423</a></li>
+        <li><a href="mailto:info@filcom.id"><i class="bi bi-envelope"></i>info@filcom.id</a></li>
+        <li><i class="bi bi-geo-alt"></i>Jakarta — on-site Jabodetabek</li>
+        <li><i class="bi bi-clock"></i>Senin–Jumat 09.00–17.00 WIB</li>
+      </ul></div>
+    </div></div>
+  </div>
+  <div class="row align-items-center"><div class="footer-bottom-area"><div class="row">
+    <div class="col-lg-12"><div class="footer-bottom-content">
+      <p>&copy; <span id="filcom-year">2026</span> Filcom.id — Solusi IT &amp; Digital. Area layanan: on-site Jabodetabek, remote &amp; konsultasi nasional.</p>
+    </div></div>
+  </div></div></div>
+</div></div>
+
+
+<!-- Floating WhatsApp -->
+<a class="filcom-wa" href="https://wa.me/6287789784423?text=Halo%20Filcom.id%2C%20saya%20ingin%20konsultasi%20soal%20kebutuhan%20IT" aria-label="Konsultasi via WhatsApp">
+  <i class="bi bi-whatsapp"></i><span>Konsultasi WhatsApp</span>
+</a>
+
+
+<!-- Scroll Up -->
+<div class="prgoress_indicator active-progress">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 212.78;"></path>
+        </svg>
+ </div>
+
+<script src="../../assets/js/vendor/jquery-3.6.2.min.js"></script>
+<script src="../../assets/js/jquery.meanmenu.js" defer></script>
+<script src="../../assets/js/filcom-theme.js" defer></script>
+<script src="../../assets/js/scroll-up.js" defer></script>
+<script src="../../assets/js/filcom-form.js?v=2" defer></script>
+<script>document.getElementById('filcom-year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
