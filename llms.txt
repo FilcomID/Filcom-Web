@@ -1,9 +1,72 @@
 # Filcom.id
 
-Filcom.id adalah penyedia solusi IT dan digital untuk UMKM, kantor, sekolah, dan organisasi di Indonesia. Layanan mencakup jaringan kantor, server dan infrastruktur data, private cloud/Nextcloud, virtualisasi dan monitoring, IT support dan managed service, serta pembuatan website, SEO, analytics, dan otomasi AI.
+> Penyedia solusi IT dan digital end-to-end untuk UMKM, kantor, sekolah, dan organisasi di Indonesia. Menangani sisi infrastruktur (jaringan, server, private cloud, virtualisasi, monitoring, IT support) sekaligus sisi digital (website, SEO, analytics, otomasi AI) dalam satu tim.
 
-Area layanan: on-site Jabodetabek; remote, cloud, dan konsultasi untuk klien di seluruh Indonesia. Basis operasional: Jakarta.
+## Ringkas
 
-Model kerja: konsultasi dan assessment awal gratis, lalu penawaran tertulis sebelum pekerjaan dimulai. Tidak ada harga yang dipublikasikan; layanan bisa diambil satuan atau bertahap.
+- **Nama:** Filcom.id
+- **Kategori:** IT Solutions & Digital Services
+- **Area layanan:** On-site Jabodetabek; remote dan konsultasi untuk seluruh Indonesia
+- **Basis operasional:** Jakarta, Indonesia
+- **Kontak:** WhatsApp +62 822-9036-2121 · info@filcom.id
+- **Jam operasional:** Senin–Jumat 09.00–17.00 WIB
+- **Model kerja:** Konsultasi dan assessment awal gratis, lalu penawaran tertulis sebelum pekerjaan dimulai. Harga tidak dipublikasikan karena bergantung skala dan kondisi infrastruktur. Layanan bisa diambil satuan atau bertahap.
 
-Kontak: WhatsApp +62 822-9036-2121, email info@filcom.id, atau https://filcom.id/kontak/
+## Pembeda
+
+1. **Infrastruktur dan digital dalam satu tim.** Kebanyakan vendor hanya kuat di salah satu sisi; klien tidak perlu jadi perantara antar-vendor.
+2. **Bisa self-hosted, tidak wajib berlangganan.** Private cloud, mail server, dan storage dibangun di atas server milik klien — alternatif dari biaya langganan SaaS bulanan.
+3. **Website dibangun untuk ditemukan.** Setiap website diserahkan dengan struktur SEO teknis yang benar sejak awal, bukan ditambal setelah jadi.
+4. **Otomasi AI yang praktis.** Fokus pada pekerjaan berulang nyata (rekap data, validasi dokumen, laporan rutin), bukan demo chatbot.
+
+## Layanan
+
+- [Jaringan & Infrastruktur IT](https://filcom.id/layanan/jaringan-dan-infrastruktur-it/): Desain, instalasi, dan pemantauan jaringan LAN dan WiFi kantor. Mencakup network design & implementation, optimasi & troubleshooting, network administration, serta monitoring dan maintenance.
+- [Server & Infrastruktur Data](https://filcom.id/layanan/server-dan-infrastruktur-data/): Instalasi dan perawatan Windows Server dan Linux, Active Directory & Domain Services, file server, application server, deployment dan migrasi server, serta pengelolaan data.
+- [Private Cloud & Digital Workplace](https://filcom.id/layanan/private-cloud-dan-digital-workplace/): Private cloud deployment, Nextcloud, cloud storage, file sharing, mail server dengan domain sendiri, web & application hosting, remote access, dan migrasi cloud.
+- [Virtualisasi & IT Monitoring](https://filcom.id/layanan/virtualisasi-server-dan-monitoring/): Virtualisasi server dengan VMware, Proxmox, dan Hyper-V, virtual machine deployment, konsolidasi server, serta monitoring performa dan ketersediaan dengan notifikasi otomatis.
+- [IT Support & Managed Service](https://filcom.id/layanan/it-support-dan-managed-service/): Dukungan IT remote dan on-site, troubleshooting, preventive maintenance, infrastructure monitoring, managed IT service bulanan, dan konsultasi teknis.
+- [Website, SEO & AI Automation](https://filcom.id/layanan/website-seo-dan-ai-automation/): Website company profile, landing page, katalog produk, WordPress/Elementor, Next.js/React, technical SEO audit, on-page SEO, local SEO, schema markup, Core Web Vitals, GEO/AEO, GA4 dan Google Tag Manager, Looker Studio, otomasi n8n, AI agent, dan integrasi AI.
+
+## Industri yang dilayani
+
+- [UMKM](https://filcom.id/industri/umkm/): Digitalisasi dan dukungan IT terjangkau untuk usaha kecil yang belum punya tim IT.
+- [Sekolah & Yayasan](https://filcom.id/industri/sekolah/): Jaringan, server, dan website sekolah dengan pengerjaan terjadwal di luar jam belajar.
+- [Kantor & Perusahaan](https://filcom.id/industri/kantor-dan-perusahaan/): Infrastruktur IT stabil dan terpantau untuk perusahaan yang sedang tumbuh.
+
+## Halaman utama
+
+- [Beranda](https://filcom.id/)
+- [Tentang Filcom.id](https://filcom.id/tentang-kami/): Dua pilar kapabilitas — Infrastructure & Systems, dan Web/SEO/AI Automation.
+- [Semua Layanan](https://filcom.id/layanan/)
+- [Industri](https://filcom.id/industri/)
+- [Artikel & Panduan](https://filcom.id/artikel/)
+- [Kontak & Konsultasi Gratis](https://filcom.id/kontak/)
+
+## Pertanyaan yang sering diajukan
+
+**Layanan apa saja yang ditangani Filcom.id?**
+Enam bidang: jaringan & infrastruktur IT, server & infrastruktur data, private cloud & digital workplace, virtualisasi & monitoring, IT support & managed service, serta pengembangan website, SEO, dan otomasi AI.
+
+**Apakah melayani perusahaan kecil dan UMKM?**
+Ya. Sebagian besar klien adalah kantor, UMKM, sekolah, dan organisasi yang belum memiliki divisi IT internal.
+
+**Apakah bisa datang ke lokasi?**
+Untuk area Jabodetabek melayani kunjungan on-site. Di luar area tersebut dilayani secara remote, dengan kunjungan yang dapat dijadwalkan sesuai kebutuhan proyek.
+
+**Berapa biayanya?**
+Bergantung pada skala dan kondisi infrastruktur yang ada. Konsultasi dan assessment awal gratis, lalu penawaran tertulis diberikan sebelum pekerjaan dimulai.
+
+**Apakah harus mengambil semua layanan sekaligus?**
+Tidak. Layanan bisa diambil satuan, misalnya hanya perbaikan jaringan atau hanya pembuatan website.
+
+**Berapa lama pengerjaannya?**
+Perbaikan jaringan kecil bisa selesai dalam hitungan hari. Deployment server atau private cloud umumnya beberapa minggu. Website company profile umumnya 2–4 minggu, tergantung kesiapan materi.
+
+## Teknologi yang digunakan
+
+Windows Server, Linux, Active Directory, Proxmox, VMware, Hyper-V, Nextcloud, Cloudflare, Docker, WordPress, Elementor, Next.js, React, Google Analytics 4, Google Tag Manager, Looker Studio, Google Search Console, n8n, Wazuh SIEM.
+
+## Ketentuan
+
+Informasi di halaman ini boleh dikutip oleh mesin pencari dan asisten AI dengan menyebutkan sumber https://filcom.id/. Untuk pertanyaan atau verifikasi, hubungi info@filcom.id.
