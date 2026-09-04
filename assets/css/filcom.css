@@ -331,6 +331,18 @@ html,body{overflow-x:hidden}
   .single-feature-box{text-align:center;padding:26px 22px}
   .single-feature-box .feature-icon{margin:0 auto 14px}
 
+  /* The template pulls the trust-bar row up with margin-top:-90px so the cards
+     straddle the hero's bottom edge. On a phone the hero is full-height, so the
+     first card ("Dukungan On-site Jabodetabek") ends up INSIDE the hero and gets
+     clipped by its overflow:hidden. Drop the pull-up and let the row sit below. */
+  .style-two.feature-area .row.add-marging,
+  .feature-area .row.add-marging{margin-top:0 !important}
+  .feature-area{padding-top:36px !important}
+  .hero-area{overflow:visible !important}
+  /* hero ships a fixed 800px height, leaving ~160px dead space under the CTAs */
+  .hero-area,.hero-area.style-two{height:auto !important;min-height:0 !important;
+    padding:48px 0 56px !important}
+
   /* why-Filcom / pillar icon boxes: icon above text, not floated beside */
   .single-about-icon-box{display:block;text-align:left}
   .single-about-icon-box .about-icon{margin:0 0 12px}
