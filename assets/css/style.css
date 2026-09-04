@@ -1365,7 +1365,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 =========================================================---*/
 
 .style-one.footer-area {
-    background: url(../images/home-1/footer-bg.jpg);
+    background: url(../images/home-1/footer-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1633,7 +1633,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
    <!--Toptech hero Area Home Two All Css-->
 =========================================================---*/
 .style-two.hero-area {
-    background: url(../images/home-2/hero-bg.png);
+    background: url(../images/home-2/hero-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1772,7 +1772,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     height:0;
     left: 0;
     bottom: 0;
-    background: url(../images/home-2/feature-box-shape.png);
+    background: url(../images/home-2/feature-box-shape.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1798,7 +1798,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     left: 0;
     right: 0;
     top: -19px;
-    background: url(../images/home-2/feature-shape-1.png);
+    background: url(../images/home-2/feature-shape-1.webp);
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.5s;
@@ -2493,7 +2493,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     height: 100%;
     left: -81px;
     top: 73px;
-    background: url(../images/home-2/porcess-shape1.png);
+    background: url(../images/home-2/porcess-shape1.webp);
     background-repeat: no-repeat;
 }
 
@@ -2508,7 +2508,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     height: 100%;
     left: -81px;
     top: 73px;
-    background: url(../images/home-2/porcess-shape2.png);
+    background: url(../images/home-2/porcess-shape2.webp);
     background-repeat: no-repeat;
 }
 
@@ -2626,7 +2626,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
    <!--Toptech Contact info Area Css Home Two-->
 =========================================================---*/
 .style-two.contact-info-area {
-    background: url(../images/home-2/contact-info-bg.png);
+    background: url(../images/home-2/contact-info-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -3920,7 +3920,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 .style-three .single-contact-info-box {
-    background: url(../images/home-3/contact-info-box-bg.png);
+    background: url(../images/home-3/contact-info-box-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -3975,7 +3975,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 
 .style-one.footer-area.style-three {
-    background: url(../images/home-1/footer-bg.jpg);
+    background: url(../images/home-1/footer-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -4041,7 +4041,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
    <!--Toptech Breadcumb Area Css-->
 =========================================================---*/
 .breadcumb-area {
-    background: url(../images/about-inner/breadcumb-bg.png);
+    background: url(../images/about-inner/breadcumb-bg.webp);
     padding: 211px 0 200px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4103,7 +4103,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
    <!--Toptech About Area Css Inner Style One-->
 =========================================================---*/
 .inner-style-one.about-area {
-    background: url(../images/about-inner/about-bg.jpg);
+    background: url(../images/about-inner/about-bg.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4509,7 +4509,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 =========================================================---*/
 
 .inner-style-two.about-area {
-    background: url(../images/about-inner/about-bg.jpg);
+    background: url(../images/about-inner/about-bg.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5124,7 +5124,7 @@ a.project-details-text {
 /*sidber contact*/
 
 .widget-sidber-contact-box {
-    background: url(../images/inner-images/sidber-contact.png);
+    background: url(../images/inner-images/sidber-contact.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -6150,7 +6150,7 @@ button.icons {
     height:0;
     left: 0;
     bottom: 0;
-    background: url(../images/home-2/feature-box-shape.png);
+    background: url(../images/home-2/feature-box-shape.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -6176,7 +6176,7 @@ button.icons {
     left: 0;
     right: 0;
     top: -19px;
-    background: url(../images/home-2/feature-shape-1.png);
+    background: url(../images/home-2/feature-shape-1.webp);
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.5s;
