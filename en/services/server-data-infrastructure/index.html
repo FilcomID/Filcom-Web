@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MGZJP9WP');</script>
+<!-- End Google Tag Manager -->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Windows and Linux Server Setup &amp; Maintenance Services | Filcom.id</title>
+<meta name="description" content="Windows &amp; Linux Server installation, Active Directory, file server, and server migration for offices, schools, and SMEs.">
+<link rel="canonical" href="https://filcom.id/en/services/server-data-infrastructure/">
+<link rel="alternate" hreflang="id" href="https://filcom.id/layanan/server-dan-infrastruktur-data/">
+<link rel="alternate" hreflang="en" href="https://filcom.id/en/services/server-data-infrastructure/">
+<link rel="alternate" hreflang="x-default" href="https://filcom.id/layanan/server-dan-infrastruktur-data/">
+<link rel="icon" type="image/svg+xml" href="../../../assets/images/fav-icon/filcom.svg">
+<meta property="og:title" content="Windows and Linux Server Setup &amp; Maintenance Services">
+<meta property="og:description" content="Windows &amp; Linux Server installation, Active Directory, file server, and server migration for offices, schools, and SMEs.">
+<meta property="og:image" content="https://filcom.id/assets/images/og-filcom.jpg">
+<meta property="og:url" content="https://filcom.id/en/services/server-data-infrastructure/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="id_ID">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../../assets/css/bootstrap.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../../assets/css/all.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../../assets/css/theme-default.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../../assets/css/meanmenu.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../../assets/css/bootstrap-icons.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../../assets/css/style.css?v=2" type="text/css" media="all">
+<link rel="stylesheet" href="../../../assets/css/responsive.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../../assets/css/filcom.css?v=17" type="text/css" media="all">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://filcom.id/#organization",
+  "name": "Filcom.id",
+  "alternateName": "Filcom",
+  "url": "https://filcom.id/",
+  "logo": "https://filcom.id/assets/images/fav-icon/filcom.svg",
+  "image": "https://filcom.id/assets/images/og-filcom.jpg",
+  "description": "IT solutions provider for SMEs, offices, schools, and organisations across Indonesia: networking, servers, private cloud, IT support, websites, SEO, and AI automation.",
+  "slogan": "IT and Digital Solutions for Businesses That Can't Afford Downtime",
+  "inLanguage": "en-US",
+  "priceRange": "$$",
+  "currenciesAccepted": "IDR",
+  "areaServed": [
+    { "@type": "AdministrativeArea", "name": "Jabodetabek" },
+    { "@type": "City", "name": "Jakarta" },
+    { "@type": "Country", "name": "Indonesia" }
+  ],
+  "telephone": "+62-877-8978-4423",
+  "email": "info@filcom.id",
+  "address": { "@type": "PostalAddress", "addressLocality": "Jakarta", "addressRegion": "DKI Jakarta", "addressCountry": "ID" },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00", "closes": "17:00"
+  }],
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+62-877-8978-4423",
+    "email": "info@filcom.id",
+    "contactType": "customer service",
+    "areaServed": "ID",
+    "availableLanguage": ["id","en"]
+  }],
+  "knowsAbout": [
+    "Office computer networking","LAN and WiFi","Windows Server","Linux Server",
+    "Active Directory","File server","Private cloud","Nextcloud","Mail server",
+    "Server virtualization","VMware","Proxmox","Hyper-V","IT monitoring",
+    "Managed IT service","IT support","Company profile website development",
+    "Technical SEO","Local SEO","Schema markup","Core Web Vitals",
+    "Google Analytics 4","Google Tag Manager","n8n workflow automation","AI automation"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Filcom.id Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Network & IT Infrastructure", "url": "https://filcom.id/en/services/network-infrastructure-it/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Server & Data Infrastructure", "url": "https://filcom.id/en/services/server-data-infrastructure/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Private Cloud & Digital Workplace", "url": "https://filcom.id/en/services/private-cloud-digital-workplace/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Server Virtualization & IT Monitoring", "url": "https://filcom.id/en/services/server-virtualization-it-monitoring/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IT Support & Managed Service", "url": "https://filcom.id/en/services/it-support-managed-service/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website, SEO & AI Automation", "url": "https://filcom.id/en/services/website-seo-ai-automation/" } }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Home","item":"https://filcom.id/en/"},
+  {"@type":"ListItem","position":2,"name":"Services","item":"https://filcom.id/en/services/"},
+  {"@type":"ListItem","position":3,"name":"Windows and Linux Server Setup & Maintenance Services","item":"https://filcom.id/en/services/server-data-infrastructure/"}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Service",
+ "serviceType":"Windows and Linux Server Setup & Maintenance Services",
+ "provider":{"@id":"https://filcom.id/#organization"},
+ "areaServed":{"@type":"Country","name":"Indonesia"},
+ "description":"A reliable, well-measured server and data management solution to support applications, systems, and your company's operational needs.",
+ "hasOfferCatalog":{"@type":"OfferCatalog","name":"Windows and Linux Server Setup & Maintenance Services",
+   "itemListElement":[
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Windows Server & Linux Server"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Active Directory & Domain Services"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"File & Storage Infrastructure"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Application Server"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Server Deployment & Migration"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Server Maintenance"}},
+     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Data Management"}}
+   ]}}
+</script>
+<script type="application/ld+json">
+{ "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+  {"@type":"Question","name":"Is data safe during server migration?","acceptedAnswer":{"@type":"Answer","text":"Before migration we make a complete backup of the existing data and configuration. The move is done by copying data rather than moving it directly, so the old server stays intact until the new one is proven to run normally. We verify file counts, access rights, and application functions together with you before the old server is decommissioned. If anything doesn't match, we can still roll back to the original state."}},
+  {"@type":"Question","name":"Can we use our existing server?","acceptedAnswer":{"@type":"Answer","text":"Yes, as long as the hardware is still fit for use. We first check the condition of the processor, memory, disk, and the equipment's age, then let you know whether it's sufficient for your needs or should be replaced. If it's still adequate, the existing server can have its system reinstalled or have components added as needed. This recommendation is given honestly, without requiring a new purchase."}},
+  {"@type":"Question","name":"Is there support after handover?","acceptedAnswer":{"@type":"Answer","text":"Yes. After handover we provide a support period to handle issues arising from our work, as agreed in the quote. You also receive configuration documentation and administrator accounts so your internal team can manage things independently. If you want ongoing routine maintenance, a scheduled periodic maintenance option is available."}}
+] }
+</script>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGZJP9WP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	<!-- loder -->
+	<div class="loader-wrapper">
+		<span class="loader"></span>
+		<div class="loder-section left-section"></div>
+		<div class="loder-section right-section"></div>
+	</div>
+
+
+<!-- Top Header -->
+<div class="top-header-area"><div class="container"><div class="row align-items-center">
+  <div class="col-lg-6"><div class="header-info"><ul>
+    <li><i class="bi bi-geo-alt-fill"></i>Jakarta — on-site in Jabodetabek, remote nationwide across Indonesia</li>
+    <li><i class="bi bi-envelope"></i>info@filcom.id</li>
+  </ul></div></div>
+  <div class="col-lg-6"><div class="top-header-social-icon"><ul>
+    <li class="time-line"><i class="bi bi-alarm"></i>Monday–Friday, 09:00–17:00 WIB</li>
+    <li class="filcom-lang-switch"><span class="is-active">EN</span> / <a href="../../../layanan/server-dan-infrastruktur-data/index.html">ID</a></li>
+    <li><a href="https://wa.me/6287789784423"><i class="fa-brands fa-whatsapp"></i></a></li>
+  </ul></div></div>
+</div></div></div>
+
+
+<!-- Header -->
+<div class="header-area style-two" id="sticky-header"><div class="container"><div class="row align-items-center">
+  <div class="col-lg-3"><div class="header-logo"><a href="../../index.html"><span style="font-size:1.6rem;font-weight:800;color:#1b2a4a">filcom<b style="color:#2d6cdf">.id</b></span></a></div></div>
+  <div class="col-lg-9"><div class="header-menu"><ul>
+    <li><a href="../../index.html">Home</a></li>
+    <li><a href="../../about/index.html">About Us</a></li>
+    <li class="menu-item-has-children"><a href="../index.html">Services<i class="fas fa-chevron-down"></i></a>
+      <ul class="sub-menu">
+        <li><a href="../network-infrastructure-it/index.html">Network &amp; IT Infrastructure</a></li>
+        <li><a href="../server-data-infrastructure/index.html">Server &amp; Data Infrastructure</a></li>
+        <li><a href="../private-cloud-digital-workplace/index.html">Private Cloud &amp; Digital Workplace</a></li>
+        <li><a href="../server-virtualization-it-monitoring/index.html">Server Virtualization &amp; IT Monitoring</a></li>
+        <li><a href="../it-support-managed-service/index.html">IT Support &amp; Managed Service</a></li>
+        <li><a href="../website-seo-ai-automation/index.html">Website, SEO &amp; AI Automation</a></li>
+      </ul></li>
+    <li class="menu-item-has-children"><a href="../../industries/index.html">Industries<i class="fas fa-chevron-down"></i></a>
+      <ul class="sub-menu">
+        <li><a href="../../industries/smes/index.html">SMEs</a></li>
+        <li><a href="../../industries/schools/index.html">Schools &amp; Foundations</a></li>
+        <li><a href="../../industries/offices-companies/index.html">Offices &amp; Companies</a></li>
+      </ul></li>
+    <li><a href="../../contact/index.html">Contact</a></li>
+    <div class="header-button"><a href="../../contact/index.html">Free Consultation</a></div>
+  </ul></div></div>
+</div></div></div>
+
+
+<!-- Mobile Menu -->
+<div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-none"><div class="mobile-menu"><nav class="header-menu"><ul class="nav_scroll">
+  <li><a href="../../index.html">Home</a></li>
+  <li><a href="../../about/index.html">About Us</a></li>
+  <li class="menu-item-has-children"><a href="../index.html">Services</a><ul class="sub-menu">
+    <li><a href="../network-infrastructure-it/index.html">Network &amp; IT Infrastructure</a></li>
+    <li><a href="../server-data-infrastructure/index.html">Server &amp; Data Infrastructure</a></li>
+    <li><a href="../private-cloud-digital-workplace/index.html">Private Cloud &amp; Digital Workplace</a></li>
+    <li><a href="../server-virtualization-it-monitoring/index.html">Server Virtualization &amp; IT Monitoring</a></li>
+    <li><a href="../it-support-managed-service/index.html">IT Support &amp; Managed Service</a></li>
+    <li><a href="../website-seo-ai-automation/index.html">Website, SEO &amp; AI Automation</a></li>
+  </ul></li>
+  <li class="menu-item-has-children"><a href="../../industries/index.html">Industries</a><ul class="sub-menu">
+    <li><a href="../../industries/smes/index.html">SMEs</a></li>
+    <li><a href="../../industries/schools/index.html">Schools &amp; Foundations</a></li>
+    <li><a href="../../industries/offices-companies/index.html">Offices &amp; Companies</a></li>
+  </ul></li>
+  <li><a href="../../contact/index.html">Contact</a></li>
+  <li><a href="../../contact/index.html">Free Consultation</a></li>
+</ul></nav></div></div>
+
+
+<!-- Breadcrumb -->
+<div class="breadcumb-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breadcumb-content">
+					<h4>Server &amp; Data Infrastructure</h4>
+					<h1>Windows and Linux Server Setup &amp; Maintenance Services</h1>
+					<ul>
+						<li><a href="../../index.html">Home</a></li>
+						<li>&gt;</li>
+						<li><a href="../index.html">Services</a></li>
+						<li>&gt;</li>
+						<li>Windows and Linux Server Setup &amp; Maintenance Services</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Service Details -->
+<div class="services-details-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="row">
+					<div class="col-lg-12">
+
+						<!-- Hero / intro -->
+						<div class="services-details-thumb">
+							<img width="1290" height="670" src="../../../assets/images/service-inner/service-details.webp" alt="Filcom.id technician installing and configuring a server in an office data center rack">
+						</div>
+						<div class="services-details-content">
+							<p class="services-details-desc">A reliable, well-measured server and data management solution to support applications, systems, and your company's operational needs.</p>
+							<div class="hero-button">
+								<a href="https://wa.me/6287789784423?text=Hello%20Filcom.id%2C%20I%27d%20like%20to%20ask%20about%20office%20server%20services">Free Consultation<i class="bi bi-arrow-right"></i></a>
+							</div>
+						</div>
+
+						<!-- What We Solve -->
+						<div class="services-details-content">
+							<h2 class="services-details-title">What We Solve</h2>
+							<ul class="filcom-problem-list">
+								<li>Company files scattered across each employee's computer, with no access control</li>
+								<li>No centralized login system yet (users, access rights, password policy)</li>
+								<li>The old server is no longer fit for use and needs migration without halting operations</li>
+								<li>Internal applications need their own server instead of riding on a work computer</li>
+								<li>No server maintenance schedule — issues are only handled after something breaks</li>
+							</ul>
+						</div>
+
+						<!-- Services We Handle -->
+						<div class="services-details-content">
+							<h2 class="services-details-title">Services We Handle</h2>
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>Windows Server &amp; Linux Server</h3>
+											<p>Installation and configuration of Windows or Linux servers tailored to your application's needs. We set up server roles, network settings, and baseline security before the server is handed over.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>Active Directory &amp; Domain Services</h3>
+											<p>Building a centralized login system so every employee has a single account to access office computers and resources. Access rights, password policy, and user groups are all managed from one place.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>File &amp; Storage Infrastructure</h3>
+											<p>Providing a shared file server with folders and access permissions organized by division. Storage capacity is sized to match data volume and growth plans.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>Application Server</h3>
+											<p>Setting up a dedicated server for internal applications such as accounting, ERP, or databases, so they don't ride on employees' work computers. Server resources are sized to match the application's load.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>Server Deployment &amp; Migration</h3>
+											<p>Setting up a new server or moving systems from an old one, scheduled so operations don't stop. Data and configuration are migrated in stages and verified before the old server is shut down.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>Server Maintenance</h3>
+											<p>Periodic maintenance covering system updates, disk health checks, and backup recovery tests. The goal is to catch issues before they cause the server to go down.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3>Data Management</h3>
+											<p>Organizing how data is stored, backed up, and restored, including backup schedules and copy locations. You know where your data is and how to recover it if something goes wrong.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- How We Do It -->
+						<div class="services-details-content">
+							<h2 class="services-details-title">How We Do It</h2>
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3><span>01</span> Assessment &amp; inventory</h3>
+											<p>We document the current servers, applications, and data usage patterns, then note down the needs and issues you want to resolve.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3><span>02</span> Design &amp; proposal</h3>
+											<p>From the assessment results, we put together a server design, equipment specifications, and a written quote for your approval before work starts.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3><span>03</span> Scheduled deployment &amp; migration</h3>
+											<p>Server installation, configuration, and data migration are carried out on an agreed schedule so office operations keep running.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3><span>04</span> Testing, documentation &amp; handover</h3>
+											<p>We test server functions and backup recovery, hand over configuration documentation and administrator accounts, and set up an optional maintenance schedule if agreed.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Who It's For -->
+						<div class="services-details-content">
+							<h2 class="services-details-title">Who It's For</h2>
+							<ul class="filcom-problem-list">
+								<li>Offices</li>
+								<li>SMEs</li>
+								<li>Schools</li>
+								<li>Organizations</li>
+								<li>Businesses that need server infrastructure and data management</li>
+							</ul>
+						</div>
+
+						<!-- FAQ -->
+						<div class="faqs-area style-one filcom-tight">
+							<div class="section-title style-one">
+								<h2>Frequently Asked Questions</h2>
+							</div>
+							<div class="faqs-container">
+								<div class="faq-singular">
+									<h3 class="faq-question"><img width="22" height="22" src="../../../assets/images/home-1/question.webp" alt="Question icon" loading="lazy">Is data safe during server migration?</h3>
+									<div class="faq-answer"><div class="desc">Before migration we make a complete backup of the existing data and configuration. The move is done by copying data rather than moving it directly, so the old server stays intact until the new one is proven to run normally. We verify file counts, access rights, and application functions together with you before the old server is decommissioned. If anything doesn't match, we can still roll back to the original state.</div></div>
+								</div>
+								<div class="faq-singular">
+									<h3 class="faq-question"><img width="22" height="22" src="../../../assets/images/home-1/question.webp" alt="Question icon" loading="lazy">Can we use our existing server?</h3>
+									<div class="faq-answer"><div class="desc">Yes, as long as the hardware is still fit for use. We first check the condition of the processor, memory, disk, and the equipment's age, then let you know whether it's sufficient for your needs or should be replaced. If it's still adequate, the existing server can have its system reinstalled or have components added as needed. This recommendation is given honestly, without requiring a new purchase.</div></div>
+								</div>
+								<div class="faq-singular">
+									<h3 class="faq-question"><img width="22" height="22" src="../../../assets/images/home-1/question.webp" alt="Question icon" loading="lazy">Is there support after handover?</h3>
+									<div class="faq-answer"><div class="desc">Yes. After handover we provide a support period to handle issues arising from our work, as agreed in the quote. You also receive configuration documentation and administrator accounts so your internal team can manage things independently. If you want ongoing routine maintenance, a scheduled periodic maintenance option is available.</div></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Related Services -->
+						<div class="services-details-content">
+							<h2 class="services-details-title">Related Services</h2>
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3><a href="../server-virtualization-it-monitoring/index.html">Server Virtualization &amp; IT Monitoring</a></h3>
+											<p>Once the server is running, virtualization lets several servers run on one physical machine, and monitoring watches its condition so issues surface before they disrupt work.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="service-details-icon-box">
+										<div class="service-details-box-content">
+											<h3><a href="../private-cloud-digital-workplace/index.html">Private Cloud &amp; Digital Workplace</a></h3>
+											<p>On top of the same server, private cloud adds storage, file sharing, and email on your own domain that your team can access securely from outside the office.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- CTA + form -->
+						<div class="services-details-content">
+							<h2 class="services-details-title">Tell Us About Your Server Needs</h2>
+							<p class="services-details-desc">Free initial consultation and assessment, no commitment. We reply within 1 business day.</p>
+							<div class="single-contact-box">
+								<form id="filcom-contact-form" action="#" method="post">
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="single-input-box">
+												<input type="text" name="nama" placeholder="Name" required>
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="single-input-box">
+												<input type="tel" name="whatsapp" placeholder="WhatsApp Number" required>
+											</div>
+										</div>
+										<div class="col-lg-12">
+											<div class="single-input-box">
+												<select name="layanan" required>
+													<option value="">Service of interest</option>
+													<option>Network &amp; IT Infrastructure</option>
+													<option selected>Server &amp; Data Infrastructure</option>
+													<option>Private Cloud &amp; Digital Workplace</option>
+													<option>Server Virtualization &amp; IT Monitoring</option>
+													<option>IT Support &amp; Managed Service</option>
+													<option>Website, SEO &amp; AI Automation</option>
+													<option>Not sure yet / need a consultation</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-lg-12">
+											<div class="single-input-box">
+												<textarea name="pesan" placeholder="Tell us what you need" required></textarea>
+											</div>
+										</div>
+										<div class="col-lg-12">
+											<div class="single-input-box">
+												<button type="submit">Send &amp; Continue to WhatsApp</button>
+											</div>
+										</div>
+									</div>
+								</form>
+								<div class="filcom-form-thanks" id="filcom-form-thanks">Thank you. We'll reply within 1 business day. You'll be redirected to WhatsApp to speed up our response.</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- Sidebar -->
+			<div class="col-lg-4">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="widget-sidber">
+							<div class="widget-sidber-content">
+								<h4>All Services</h4>
+							</div>
+							<div class="widget-category">
+								<ul>
+									<li><a href="../network-infrastructure-it/index.html">Network &amp; IT Infrastructure<i class="bi bi-arrow-right"></i></a></li>
+									<li><a class="active" href="#">Server &amp; Data Infrastructure<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../private-cloud-digital-workplace/index.html">Private Cloud &amp; Digital Workplace<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../server-virtualization-it-monitoring/index.html">Server Virtualization &amp; IT Monitoring<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../it-support-managed-service/index.html">IT Support &amp; Managed Service<i class="bi bi-arrow-right"></i></a></li>
+									<li><a href="../website-seo-ai-automation/index.html">Website, SEO &amp; AI Automation<i class="bi bi-arrow-right"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="widget-sidber-contact-box">
+							<p class="widget-sidber-contact-text">Need quick help?</p>
+							<h3 class="widget-sidber-contact-number"><a href="tel:+6287789784423" style="color:inherit;text-decoration:none">+62 877-8978-4423</a></h3>
+							<span class="widget-sidber-contact-gmail"><i class="bi bi-envelope-fill"></i> <a href="mailto:info@filcom.id" style="color:inherit;text-decoration:none">info@filcom.id</a></span>
+							<div class="widget-sidber-contact-btn">
+								<a href="../../contact/index.html">Contact Us <i class="bi bi-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Footer -->
+<div class="footer-area style-one"><div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <div class="footer-logo"><a href="../../index.html"><span style="font-size:1.6rem;font-weight:800;color:#ffffff">filcom<b style="color:#5b9dff">.id</b></span></a></div>
+      <div class="footer-widget-desc"><p>IT and digital solutions for businesses that can't afford downtime — infrastructure, cloud, websites, SEO, and AI automation handled by one team.</p></div>
+    </div>
+    <div class="col-lg-2 col-md-6"><div class="footer-widget-content">
+      <div class="footer-widget-title"><h4>Company</h4></div>
+      <div class="footer-widget-menu"><ul>
+        <li><a href="../../about/index.html"><i class="bi bi-arrow-right-circle"></i>About Us</a></li>
+        <li><a href="../index.html"><i class="bi bi-arrow-right-circle"></i>All Services</a></li>
+        <li><a href="../../industries/index.html"><i class="bi bi-arrow-right-circle"></i>Industries</a></li>
+        <li><a href="../../../artikel/index.html"><i class="bi bi-arrow-right-circle"></i>Blog (Indonesian)</a></li>
+        <li><a href="../../contact/index.html"><i class="bi bi-arrow-right-circle"></i>Contact</a></li>
+      </ul></div>
+    </div></div>
+    <div class="col-lg-3 col-md-6"><div class="footer-widget-content">
+      <div class="footer-widget-title"><h4>Services</h4></div>
+      <div class="footer-widget-menu"><ul>
+        <li><a href="../network-infrastructure-it/index.html"><i class="bi bi-arrow-right-circle"></i>Network &amp; IT Infrastructure</a></li>
+        <li><a href="../server-data-infrastructure/index.html"><i class="bi bi-arrow-right-circle"></i>Server &amp; Data Infrastructure</a></li>
+        <li><a href="../private-cloud-digital-workplace/index.html"><i class="bi bi-arrow-right-circle"></i>Private Cloud &amp; Digital Workplace</a></li>
+        <li><a href="../server-virtualization-it-monitoring/index.html"><i class="bi bi-arrow-right-circle"></i>Server Virtualization &amp; IT Monitoring</a></li>
+        <li><a href="../it-support-managed-service/index.html"><i class="bi bi-arrow-right-circle"></i>IT Support &amp; Managed Service</a></li>
+        <li><a href="../website-seo-ai-automation/index.html"><i class="bi bi-arrow-right-circle"></i>Website, SEO &amp; AI Automation</a></li>
+      </ul></div>
+    </div></div>
+    <div class="col-lg-3 col-md-6"><div class="footer-widget-content">
+      <div class="footer-widget-title"><h4>Contact</h4></div>
+      <div class="footer-widget-menu"><ul>
+        <li><a href="https://wa.me/6287789784423"><i class="bi bi-whatsapp"></i>WhatsApp +62 877-8978-4423</a></li>
+        <li><a href="mailto:info@filcom.id"><i class="bi bi-envelope"></i>info@filcom.id</a></li>
+        <li><i class="bi bi-geo-alt"></i>Jakarta — on-site Jabodetabek, remote nationwide across Indonesia</li>
+        <li><i class="bi bi-clock"></i>Monday–Friday, 09:00–17:00 WIB</li>
+      </ul></div>
+    </div></div>
+  </div>
+  <div class="row align-items-center"><div class="footer-bottom-area"><div class="row">
+    <div class="col-lg-12"><div class="footer-bottom-content">
+      <p>&copy; <span id="filcom-year">2026</span> Filcom.id — IT &amp; Digital Solutions. Service area: on-site Jabodetabek, remote &amp; consultation nationwide across Indonesia.</p>
+    </div></div>
+  </div></div></div>
+</div></div>
+
+
+<!-- Floating WhatsApp -->
+<a class="filcom-wa" href="https://wa.me/6287789784423?text=Hello%20Filcom.id%2C%20I%27d%20like%20to%20ask%20about%20office%20server%20services" aria-label="Consultation via WhatsApp">
+  <i class="bi bi-whatsapp"></i><span>WhatsApp Consultation</span>
+</a>
+
+
+<!-- Scroll Up -->
+<div class="prgoress_indicator active-progress">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 212.78;"></path>
+        </svg>
+ </div>
+
+<script src="../../../assets/js/vendor/jquery-3.6.2.min.js"></script>
+<script src="../../../assets/js/jquery.meanmenu.js" defer></script>
+<script src="../../../assets/js/filcom-theme.js" defer></script>
+<script src="../../../assets/js/scroll-up.js" defer></script>
+<script src="../../../assets/js/filcom-form.js?v=2" defer></script>
+<script>document.getElementById('filcom-year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
