@@ -67,6 +67,8 @@ Perbaikan jaringan kecil bisa selesai dalam hitungan hari. Deployment server ata
 
 Windows Server, Linux, Active Directory, Proxmox, VMware, Hyper-V, Nextcloud, Cloudflare, Docker, WordPress, Elementor, Next.js, React, Google Analytics 4, Google Tag Manager, Looker Studio, Google Search Console, n8n, Wazuh SIEM.
 
+An English version of the core pages is available under https://filcom.id/en/.
+
 ## Ketentuan
 
 Informasi di halaman ini boleh dikutip oleh mesin pencari dan asisten AI dengan menyebutkan sumber https://filcom.id/. Untuk pertanyaan atau verifikasi, hubungi info@filcom.id.
